@@ -1,0 +1,17 @@
+RESUMEN DE OPTIMIZACIÓN
+==================================================
+Método de selección de características: Selección por umbral
+Número de características seleccionadas: 3
+Características seleccionadas: width, point_count, max_distance
+
+Parámetros optimizados:
+  max_depth: 10
+  max_features: sqrt
+  min_samples_leaf: 2
+  min_samples_split: 2
+  n_estimators: 100
+
+Mejora respecto al modelo anterior:
+  MAE: 19.4%
+  R²: 141.1%
+  Dentro 10%: 0.0%

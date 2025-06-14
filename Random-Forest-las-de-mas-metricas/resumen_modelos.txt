@@ -1,0 +1,66 @@
+RESUMEN DE MODELOS ENTRENADOS
+============================================================
+
+Característica       MAE        R²         Error Rel. Dentro 5%  Dentro 10%
+--------------------------------------------------------------------------------
+altura_cadera        3.35       0.3239     2.63      % 86.4      % 100.0     %
+altura_cruz          3.25       0.2761     2.63      % 90.9      % 100.0     %
+ancho_articulacion_cadera 2.76       0.4787     5.85      % 45.5      % 86.4      %
+ancho_ilion          1.29       0.5843     2.93      % 77.3      % 100.0     %
+ancho_pecho          2.61       0.4076     5.84      % 77.3      % 90.9      %
+circunferencia_torax 3.22       0.8041     1.76      % 90.9      % 100.0     %
+longitud_cadera      1.78       0.4162     3.90      % 72.7      % 100.0     %
+longitud_oblicua     5.43       0.1923     3.53      % 72.7      % 90.9      %
+profundidad_pecho    2.38       0.3470     3.69      % 77.3      % 95.5      %
+
+Características seleccionadas por modelo:
+============================================================
+
+altura_cadera:
+  - live weithg
+  - point_count
+  - avg_distance
+
+altura_cruz:
+  - live weithg
+  - distance_q3
+
+ancho_articulacion_cadera:
+  - live weithg
+  - width
+  - point_count
+  - max_distance
+  - principal_length_1
+  - sphericity
+
+ancho_ilion:
+  - live weithg
+  - std_x
+  - max_distance
+  - principal_length_1
+
+ancho_pecho:
+  - live weithg
+  - std_x
+  - max_distance
+  - principal_length_3
+
+circunferencia_torax:
+  - live weithg
+  - std_x
+
+longitud_cadera:
+  - live weithg
+  - std_x
+  - eigenvalue_3
+  - flatness
+
+longitud_oblicua:
+  - live weithg
+  - eigenvalue_1
+
+profundidad_pecho:
+  - live weithg
+  - std_x
+  - max_distance
+

@@ -1,0 +1,4 @@
+el archivo se uso como etiquetas para entrenar los medelos:Measurements.xlsx
+las nubes de puntos fueron sacadas de este repositorio:https://github.com/ruchaya/CowDatabase
+el entrono de desarrollo fue :Google colab
+todos los código esta listos para su ejecución en Google Colad solo configurar las rutas 
